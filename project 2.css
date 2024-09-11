@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    scroll-behavior: smooth;
+}
+
+
+nav{
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 4px;
+    font-size: small;
+    padding: 8px;
+    background-color: white;
+    width: 100%;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.534);
+    z-index: 500;
+}
+
+
+.Heading{
+    padding: 8px ;
+    transition: all 0.3s ease;
+    &:hover{
+        background-color: lightgray;
+    }
+}
+
+
+.navigation >ul{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 10px;
+    list-style-type: none;
+}
+
+
+.navlist >li{
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    &:hover{
+        background-color: lightgray;
+    }
+}
+
+.navlist > li > a{
+    padding: 8px;
+}
+
+.Main-Seaction{
+    height: 500px;
+}
+
+.Bimage{
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    padding: 20px;
+}
+
+
+.Bimage > h1{
+    letter-spacing: 5px;
+    font-size: xx-large;
+    color:#5e5f61;
+}
+
+.About-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+}
+.About{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 30px;
+
+}
+
+
+.Aimage{ 
+    height: 500px;
+    width: 400;
+    opacity: 0.8;
+    overflow: hidden;
+    border-radius: 10px;
+
+} 
+
+.Aimage > img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.Text{
+    
+    width: 50%;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.textinn{
+    text-align: center;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+}
+.textInner{
+    text-align: center;
+    font-size: medium;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.HeadingTradition{
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+
+.para{
+    text-align: start;
+    line-height:25px;
+    font-size: 12px;
+}
+.pgraph{
+    text-align: start;
+    line-height: 25px;
+    font-size: 12px;
+    color: #757575;
+}
+
+
+.Menutext{
+    padding: 70px ;
+    display: flex;
+    justify-content: space-between;
+    
+} 
+
+.Menuimage{
+    height: 600px;
+    width: 500;
+    opacity: 0.8;
+    overflow: hidden;
+    border-radius: 4px;
+    
+
+}
+
+.Menuimage >img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.Menu >h1{
+    text-align: center;
+    margin-bottom: 40px;
+    letter-spacing: 4px;
+    
+    
+}
+.Menu >h6{
+    font-size: 18px;
+    margin: 10px 0px; 
+    letter-spacing: 5px;
+
+
+
+}
+.Menu >p{
+    margin: 20px 0px;
+    margin-bottom: 40px;
+    color: #7f757575;
+}
+.Contact-Seaction{
+    padding: 70px;
+}
+
+
+.P1 {
+    font-size: 36px;
+    margin: 20px 0px;
+}
+.P2{
+margin: 20px 0px;
+font-size:12px;
+
+}
+.Contacttext > b{
+    color: #607d8b;
+    /* line-height: 20px; */
+}
+.P3{
+    font-size: 12px;
+    line-height:70px ;
+}
+.Form{
+    display: flex;
+    flex-direction: column;
+}
+
+.formInput{
+    padding: 15px;
+    border: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    &:focus{
+        border: 1px solid black;
+    }
+}
+
+.submit > button{
+    cursor: pointer;
+    transition: all 0.3s ease;
+    &:hover{
+        background-color: lightgray;
+    }
+}
+.End1{
+    text-align: center;
+    padding: 40px 0px;
+    background-color: #f2f2f2;
+}
+
+
+h1, h5, h6{
+    font-weight: 400;
+}
+h1{
+font-size: 30px;
+}
+h5{
+    font-size: 10px;
+}
+
+
+hr{
+    width: 86%;
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: auto;
+}
+
+
+
+
+
+
+
