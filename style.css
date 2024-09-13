@@ -7,6 +7,7 @@
     box-sizing: border-box;
     font-family: 'Poppins';
     scroll-behavior: smooth;
+    font-size: 20px;
 }
 
 
@@ -61,14 +62,15 @@ nav{
 }
 
 .Main-Seaction{
-    height: 500px;
+    height: 700px;
 }
 
 .Bimage{
     height: 100%;
     width: 100%;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
+    background-position: center;
     display: flex;
     justify-content: start;
     align-items: end;
@@ -78,27 +80,28 @@ nav{
 
 .Bimage > h1{
     letter-spacing: 5px;
-    font-size: xx-large;
+    font-size: 25px;
     color:#5e5f61;
+    font-weight: bold;
 }
 
 .About-section{
     display: flex;
     justify-content: space-between;
-    padding: 70px;
+    padding: 150px;
 }
 .About{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
-    gap: 30px;
+    gap: 80px;
 
 }
 
 
 .Aimage{ 
-    height: 500px;
-    width: 400;
+    height: 650px;
+    width: 550;
     opacity: 0.8;
     overflow: hidden;
     border-radius: 10px;
@@ -141,27 +144,30 @@ nav{
 
 .para{
     text-align: start;
-    line-height:25px;
-    font-size: 12px;
+    line-height: 30px;
+    font-size: 18px;
 }
 .pgraph{
     text-align: start;
-    line-height: 25px;
-    font-size: 12px;
+    line-height: 30px;
+    font-size: 18px;
     color: #757575;
 }
 
 
+#Menu{
+    padding: 150px;
+}
+
 .Menutext{
-    padding: 70px ;
     display: flex;
     justify-content: space-between;
     
 } 
 
 .Menuimage{
-    height: 600px;
-    width: 500;
+    height: 650px;
+    width: 550;
     opacity: 0.8;
     overflow: hidden;
     border-radius: 4px;
@@ -207,7 +213,7 @@ nav{
 }
 .P2{
 margin: 20px 0px;
-font-size:12px;
+font-size:18px;
 
 }
 .Contacttext > b{
@@ -215,7 +221,7 @@ font-size:12px;
     /* line-height: 20px; */
 }
 .P3{
-    font-size: 12px;
+    font-size: 18px;
     line-height:70px ;
 }
 .Form{
