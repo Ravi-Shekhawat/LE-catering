@@ -88,7 +88,7 @@ nav{
 .About-section{
     display: flex;
     justify-content: space-between;
-    padding: 150px;
+    padding: 50px 150px;
 }
 .About{
     display: flex;
@@ -156,7 +156,7 @@ nav{
 
 
 #Menu{
-    padding: 150px;
+    padding: 50px 150px;
 }
 
 .Menutext{
